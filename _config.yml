@@ -1,0 +1,23 @@
+title: "The Mac Pack"
+tagline: "A collection of macOS flavoured content."
+description: "A collection of macOS flavoured content."
+github_username: themacpack
+baseurl: "/"
+url: "https://themacpack.io"
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+highlighter: rouge
+
+header_pages:
+  - index.md
+  - read-me.md
+
+# set the size of the text to 'large' or 'small', default is small
+font-size: small
