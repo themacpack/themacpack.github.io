@@ -2,14 +2,14 @@
 layout: home
 permalink: /
 permalink_name: /home
-title: jekyll-shell-theme
+title: The Mac Pack
 
 detail_image: assets/theme_logo.svg
 
 ---
 
-# jekyll-shell-theme
+# Welcome
 
-**Jekyll Shell Theme** is an open source light-weight customizable jekyll theme for your site! You can use it to spice up your personal profiles, project pages or just about anything!
+Welcoem to the **The Mac Pack**.
 
-No prior web-dev knowledge is required to use the theme to make a website, just follow the instructions in [/read-me](read-me) to set up your web page and start filling it with hackery content! You can see sone features of the theme in [/preview](preview).
+ou can see sone features of the theme in [/preview](preview).
