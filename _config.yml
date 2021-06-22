@@ -2,7 +2,7 @@ title: "The Mac Pack"
 tagline: "A collection of macOS flavoured content."
 description: "A collection of macOS flavoured content."
 github_username: themacpack
-baseurl: ""
+baseurl: "/"
 url: "https://themacpack.io"
 
 plugins:
