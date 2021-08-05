@@ -2,6 +2,11 @@
 title: Detecting Orthrus and Typhon
 date: 2021-08-05 06:00:00 +01000
 tags: [Blue, Detection, Black Hat]
+image:
+  src: /assets/img/detecting-orthrus-and-typhon/blackhat2021_logo.png
+  width: 501
+  height: 211
+  alt: Black Hat USA 2021 Logo
 ---
 
 On 5th August 2021, we ([Calum @\_calumhall](https://twitter.com/_calumhall) and [Luke @rookuu\_](https://twitter.com/rookuu_) presented at Black Hat USA, with our talk "Come to The Dark Side We Have Apples: Turning macOS Management Evil". The talk discusses methods of using and abusing Jamf and MDM in an offensive operation, and specifically relevent to this post - as initial access implants. 
