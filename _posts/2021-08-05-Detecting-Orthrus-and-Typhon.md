@@ -40,7 +40,7 @@ Similar to the previous idea, if an organisation is already using MDM then they 
 
 ## Typhon
 
-![typhon logo](/assets/img/detecting-orthrus-and-typhon/typhon.svg)
+![typhon logo](/assets/img/detecting-orthrus-and-typhon/typhon.svg){: width="300" height="300" }
 _Typhon: A Mythic agent designed to exploit Jamf managed devices._
 
 Typhon is a Mythic agent that was developed to enable device takeover attacks against Jamf managed workstations. This agent & profile combination enables an attacker to imitate the behaviour of a Jamf server within macOS environments, and as such operate in a covert manner.
