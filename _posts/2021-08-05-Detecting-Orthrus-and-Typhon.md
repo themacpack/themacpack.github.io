@@ -39,3 +39,26 @@ Similar to the previous idea, if an organisation is already using MDM then they 
 **Detection:** Use existing MDM solution to monitor for `CheckOut` messages.
 
 ## Typhon
+
+![typhon logo](/assets/img/detecting-orthrus-and-typhon/typhon.svg)
+_Typhon: A Mythic agent designed to exploit Jamf managed devices._
+
+Typhon is a Mythic agent that was developed to enable device takeover attacks against Jamf managed workstations. This agent & profile combination enables an attacker to imitate the behaviour of a Jamf server within macOS environments, and as such operate in a covert manner.
+
+### Alteration of the Jamf Configuration
+
+Typhon was designed as a means of taking over control of Jamf enrolled devices - without introducing any custom code. Jamf operates on a client server model where the client side agent relies on a configuration file to determine which server to communicate with. The typhon agent provides the user with a custom Jamf configuration file, that once placed within `/Library/Preferences/com.jamfsoftware.jamf.plist` on the device will cause the endpoint to communicate with the specified Mythic server.
+
+**Detection:** It is highly unusual for any process other than Jamf to interact with the Jamf configuration file (with the exception of a few default system utilities). Alerts should be raised for any alterations made to this file by non-standard processes. Additionally, it may be possible using tools such as osquery to monitor for changes to the configuration file's hash value.
+
+### Device Health Check
+
+This type of device takeover attack currently prevents the compromised device from checking in to the legitimate Jamf server.
+
+**Detection:** It may be possible to implement a device health check within your environment to identify devices that have not checked in for a prolonged period of time. 
+
+### Code Execution
+
+Whilst the Jamf agent does legitimately execute bash commands within the majority of environments. It should not be assumed that any commands performed by this binary are legitimate. As attacks like this have demonstrated, the Jamf agent may be abused to perform malicious activity on behalf a malicious user.
+
+**Detection:** Ensure that the Jamf binary is not whitelisted from current device detections. 
