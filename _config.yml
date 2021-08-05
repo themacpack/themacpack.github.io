@@ -79,7 +79,7 @@ theme_mode:   dark
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar:  ''
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -159,7 +159,7 @@ exclude:
   - '*.json'
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: []
   layouts:
     category: category
     tag: tag
