@@ -4,5 +4,8 @@ icon: fas fa-info
 order: 4
 ---
 
+Hello! Welcome to The Mac Pack. 
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+This is a space for a couple of like-minded macOS security researchers to share content.
+
+
