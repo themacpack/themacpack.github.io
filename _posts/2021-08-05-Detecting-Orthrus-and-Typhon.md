@@ -9,7 +9,7 @@ image:
   alt: Black Hat USA 2021 Logo
 ---
 
-On 5th August 2021, we ([Calum @\_calumhall](https://twitter.com/_calumhall) and [Luke @rookuu\_](https://twitter.com/rookuu_) presented at Black Hat USA, with our talk "Come to The Dark Side We Have Apples: Turning macOS Management Evil". The talk discusses methods of using and abusing Jamf and MDM in an offensive operation, and specifically relevent to this post - as initial access implants. 
+On 5th August 2021, we ([Calum @\_calumhall](https://twitter.com/_calumhall) and [Luke @rookuu\_](https://twitter.com/rookuu_)) presented at Black Hat USA, with our talk "Come to The Dark Side We Have Apples: Turning macOS Management Evil". The talk discusses methods of using and abusing Jamf and MDM in an offensive operation, and specifically relevent to this post - as initial access implants. 
 
 To facilite the research, we created two [Mythic](https://github.com/its-a-feature/Mythic) agents. In this post, we wanted to outline some of the ideas we've had to detection the agents. Most of the detection opportunities below are targeted towards the installation of the agents, as opposed to the malicious activity post compromise. This is because by nature, the agents are designed to blend in with the leigimate management software extant within the target's estate.
 
